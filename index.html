@@ -16,15 +16,37 @@
     />
   </head>
   <body>
-    <head/head>
-    <h1>Lets find a book</h1>
-    <p>Using google books API</p>
-    <p>Type in your search word:</p>
-    <form id="searchForm">
-      <input type="text" id="searchField" placeholder="Search book..." />
-      <button type="submit">Search</button>
-    </form>
+    <header>
+      <h1>Lets find a book 📖</h1>
+      <!-- <h3>Using google books API</h3> -->
+      <!-- <p>Type in your search word below</p> -->
+      <!-- <form id="searchForm">
+        <input type="text" id="searchField" placeholder="Search book..." />
+        <button type="submit">Search</button>
+      </form> -->
+
+      <form id="search" class="search-container">
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="What kind of book are you looking for today?"
+        />
+        <a id="link1" href="#"
+          ><img
+            class="search-icon"
+            src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"
+        /></a>
+        <input type="submit" hidden />
+      </form>
+    </header>
 
     <div id="books"></div>
+
+    <footer>
+      <p>
+        Designed and built with <span title="~latvia~">&hearts;</span> by
+        Samantha Au ©2022
+      </p>
+    </footer>
   </body>
 </html>

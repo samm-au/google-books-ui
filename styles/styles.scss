@@ -1,22 +1,13 @@
-.card {
-  //   width: 300px;
-  //   height: 400px;
-  margin: 20px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-
-  img {
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
-  }
-}
+@import "./components/cards";
+@import "./components/searchbar";
+@import "./layout/footer";
 
 #books {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 50px 0px 50px;
+  gap: 20px;
+  justify-items: center;
 }
 
 body {
@@ -25,4 +16,26 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
+  margin: 0px;
+  width: 100%;
+  background-color: rgb(221, 221, 221);
+}
+
+header {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    163deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  box-shadow: 10px 5px 10px rgb(178, 178, 178);
+
+  h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+  }
 }

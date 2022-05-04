@@ -1,6 +1,6 @@
 import { getBooks } from "./api.js";
 
-const searchForm = document.querySelector("#searchForm");
+const searchForm = document.querySelector("#search");
 
 const createBookCard = (bookObj) => {
   console.log(bookObj.volumeInfo.imageLinks.thumbnail);
@@ -10,9 +10,9 @@ const createBookCard = (bookObj) => {
 
   return `
         <div class="card">
-        <img src="${bookObj.volumeInfo.imageLinks.thumbnail}"}
+            <img src="${bookObj.volumeInfo.imageLinks.thumbnail}">
             <h2>${bookObj.volumeInfo.title}</h2>
-            <p>Book Rating: ${replaceUndefined(
+            <p class="module">Book Rating: ${replaceUndefined(
               bookObj.volumeInfo.averageRating
             )}</p>
             <p>${replaceUndefined(bookObj.volumeInfo.description)}</p>
@@ -20,7 +20,7 @@ const createBookCard = (bookObj) => {
     `;
 };
 
-searchForm.addEventListener("submit", async (event) => {
+searchForm.addEventListener("click", async (event) => {
   event.preventDefault();
   const booksResponse = await getBooks(event);
 
