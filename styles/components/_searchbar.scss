@@ -40,4 +40,9 @@ input#search-bar {
   height: 75px;
   top: -62px;
   right: -45px;
+  transition: 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }

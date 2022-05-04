@@ -27,8 +27,6 @@ $lg: 1025px;
 }
 
 @mixin footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   /* Height of the footer*/
   height: 40px;
