@@ -14,6 +14,7 @@ input#search-bar {
   border-radius: 10px;
   outline: none;
   color: #717171;
+
   &:focus {
     border: 1px solid #bf9200;
     transition: 0.35s ease;
@@ -36,11 +37,13 @@ input#search-bar {
 .search-icon {
   position: relative;
   float: right;
-  width: 75px;
-  height: 75px;
-  top: -62px;
-  right: -45px;
+  width: 40px;
+  height: 40px;
+  top: -44px;
+  right: -35px;
   transition: 0.2s;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
     transform: scale(1.1);
