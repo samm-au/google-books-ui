@@ -1,4 +1,19 @@
-#Google Books UI project
+# Google Books UI
+
+
+# My Portfolio
+![Screen Shot 2022-06-24 at 1 28 23 pm](https://user-images.githubusercontent.com/97388878/175456668-bff17220-01ab-4cf1-8f94-8d6013b4f57b.png)
+
+
+## Link to Live website
+
+[Link](https://samanthaau.dev/)
+
+## About
+
+A website implementing Google books api to search for books based on a search input.
+
+## MVP
 
 MVP
 Create a page that allows users to search for books
@@ -48,3 +63,19 @@ Bonus (optional, but highly recommended):
 Give feedback to the user when no book results can be found for the query.
 
 When a user clicks a book in the grid, a modal should appear with more book information, think about release, publish date, country, languages, etc.
+
+Website needs to be responsive to most screen sizes.
+
+## Technologies used
+
+- HTML
+- CSS
+- Sass
+- Javascript
+
+
+## Thought process
+
+Design:
+
+
