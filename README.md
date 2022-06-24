@@ -74,5 +74,15 @@ Website needs to be responsive to most screen sizes.
 ## Thought process
 
 Design:
+I wanted to be fun and inviting. Something easy on the eyes and not too complicated.
 
+When building this website, I wanted to have the focus on the searchbar and the books grid. 
+
+I first started off with a simple form for my searchbar and connected the googlebooks api to make sure that it's working. 
+
+I analyzed the google books search results json and see what fields I needed access too. Once I had that figured out, I wrote some conditions such as if there is not field data present or if there are no search results, to display a message like "no results".
+
+I then worked on styling the webpage, picking my font and colours. I worked on the grid component and styling the images and added hover effects.
+
+In the future I would like to add some CRUD actions so users can add books to a reading collection.
 
