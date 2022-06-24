@@ -4,7 +4,7 @@
 
 ## Link to Live website
 
-[Link](samm-au.github.io/google-books-ui/)
+[Link](https://samm-au.github.io/google-books-ui/)
 
 ## About
 
