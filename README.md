@@ -7,7 +7,7 @@
 
 ## Link to Live website
 
-[Link](https://samanthaau.dev/)
+[Link](samm-au.github.io/google-books-ui/)
 
 ## About
 
